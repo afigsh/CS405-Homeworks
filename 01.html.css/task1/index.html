@@ -1,61 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-
-
-<form  
- 
-        label for="name">Name:</label>
-        <input type="text" id="name"><br><br>
-
-        <label for="favnumber">Fav number:</label>
-        <input type="text" id="favnumber"><br><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email"><br><br>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password"><br><br>
-
-        <label>Gender:</label>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female<br><br>
-
-        <label for="country">Country:</label>
-        <select id="country">
-            <option value="usa">USA</option>
-        </select><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" rows="4" cols="50"></textarea><br><br>
-
-        <label for="newsletter">Subscribe to newsletter:</label>
-        <input type="checkbox" id="newsletter"><br><br>
-
-        <label for="fileupload">Upload file:</label>
-        <input type="file" id="fileupload"><br><br>
-
-        <label for="birthdate">Birthdate:</label>
-        <input type="date" id="birthdate"><br><br>
-
-        <label for="color">Favorite Color:</label>
-        <input type="color" id="color"><br><br>
-
-        <label for="website">Personal Website:</label>
-        <input type="url" id="website"><br><br>
-
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset" >
-   
-
-</form>
-
-
-</head>  
+  <meta charset="UTF-8">
+  <title>Sample Form</title>
+</head>
 <body>
-    
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="favnumber">Fav number:</label>
+    <input type="number" id="favnumber" name="favnumber"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    Gender:
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="uk">AZE</option>
+      <!-- Add more countries as needed -->
+    </select><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="50"></textarea><br><br>
+
+    <label for="subscribe">Subscribe to newsletter:</label>
+    <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+    <label for="file">Upload file:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate"><br><br>
+
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color"><br><br>
+
+    <label for="website">Personal Website:</label>
+    <input type="url" id="website" name="website"><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
 </body>
 </html>
